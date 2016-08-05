@@ -1,0 +1,160 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.comment {
+  color: #406040;
+}
+
+.string {
+  color: #C03030;
+}
+
+.constant.numeric {
+  color: #0080A0;
+}
+
+.source.ocaml .constant.numeric.floating-point {
+  text-decoration: underline;
+}
+
+.constant.character {
+  color: #800000;
+}
+
+.constant.language {
+}
+
+.constant.character, .constant.other {
+}
+
+.variable.parameter, .variable.other {
+}
+
+.keyword {
+  color: #2060A0;
+}
+
+.keyword.operator {
+  color: #2060A0;
+}
+
+.source.ocaml .keyword.operator.symbol.prefix.floating-point {
+  text-decoration: underline;
+}
+
+.source.ocaml .keyword.operator.symbol.infix.floating-point {
+  text-decoration: underline;
+}
+
+.entity.name.module, .support.other.module {
+  color: #0080FF;
+}
+
+.storage.type {
+  color: #A08000;
+}
+
+.storage {
+  color: #008080;
+}
+
+.entity.name.class.variant {
+  color: #C08060;
+}
+
+.keyword.other.directive {
+  font-weight: bold;
+}
+
+.source.ocaml .keyword.other.directive.line-number {
+}
+
+.entity.other.inherited-class {
+}
+
+.entity.name.function {
+  color: #800000;
+}
+
+.storage.type.user-defined {
+  color: #800080;
+}
+
+.entity.name.type.class.type {
+  color: #8000C0;
+}
+
+.variable.parameter {
+}
+
+.entity.name.tag {
+}
+
+.entity.other.attribute-name {
+}
+
+.support.function {
+}
+
+.support.constant {
+}
+
+.support.type, .support.class {
+}
+
+.support.variable {
+}
+
+.invalid {
+}

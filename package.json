@@ -1,5 +1,5 @@
 {
-  "name": "textmate-active4d-syntax",
+  "name": "textmate-slush-poppies-syntax",
   "theme": "syntax",
   "version": "0.0.0",
   "description": "Textmate slush-&-poppies theme for Atom",
@@ -9,7 +9,7 @@
     "textmate",
     "slush-&-poppies"
   ],
-  "repository": "https://github.com/phthhieu/textmate-slush-&-poppies-syntax",
+  "repository": "https://github.com/phthhieu/textmate-slush---poppies-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
